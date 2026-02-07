@@ -43,7 +43,7 @@ const conversations = [
 
 const Hero = () => {
     return (
-        <div className="relative min-h-[90vh] mt-12 flex flex-col items-center justify-center overflow-hidden bg-gradient-to-b from-primary-bg via-white to-white pt-20">
+        <div className="relative min-h-[95vh] mt-10 flex flex-col items-center justify-center overflow-hidden bg-gradient-to-b from-primary-bg via-white to-white pt-20">
 
             {/* Background Decor */}
             <div className="absolute inset-0 overflow-hidden pointer-events-none">
@@ -52,7 +52,7 @@ const Hero = () => {
             </div>
 
             {/* Hero Content */}
-            <div className="relative z-10 text-center max-w-4xl px-4 sm:px-6 lg:px-8 mt-10 md:mt-0">
+            <div className="relative z-10 text-center max-w-4xl px-4 sm:px-6 lg:px-8 md:mt-0">
 
                 <motion.div
                     initial={{ opacity: 0, y: -10 }}
@@ -95,7 +95,7 @@ const Hero = () => {
                     <button className="w-full sm:w-auto px-8 py-4 bg-primary text-white text-lg font-bold rounded-full shadow-xl shadow-blue-500/30 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300">
                         Start Hiring Smarter
                     </button>
-                    <button className="w-full sm:w-auto px-8 py-4 bg-white text-gray-700 border-2 border-gray-200 text-lg font-bold rounded-full hover:border-primary hover:text-primary transition-colors duration-300">
+                    <button className="w-full sm:w-auto px-8 py-4 bg-white text-primary border-2 border-gray-200 text-lg font-bold rounded-full hover:border-primary hover:text-primary transition-colors duration-300">
                         Book a Demo
                     </button>
                 </motion.div>
